@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin">
+
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/print_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_orange_dark"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:text="@string/print_receipt" />
+
+    <EditText
+        android:id="@+id/file_path"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="/data/resource/public/Paxprint.bmp" />
+
+    <ScrollView
+        android:id="@+id/scroll_command_dump"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:fillViewport="false">
+
+        <TextView
+            android:id="@+id/output_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </ScrollView>
+
+    <ScrollView
+        android:id="@+id/scroll_event_dump"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="#dddddd"
+        android:fillViewport="false">
+
+        <TextView
+            android:id="@+id/event_dump"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </ScrollView>
+
+</LinearLayout>

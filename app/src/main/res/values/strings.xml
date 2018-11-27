@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">SDLForAndroid</string>
+    <string name="print_receipt">Print Receipt</string>
+</resources>

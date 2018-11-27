@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_clear_output"
+        android:orderInCategory="10"
+        android:title="Clear Output"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_create_file"
+        android:orderInCategory="100"
+        android:title="Create File"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_write_file"
+        android:orderInCategory="110"
+        android:title="Write File"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_read_file"
+        android:orderInCategory="120"
+        android:title="Read File"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_delete_file"
+        android:orderInCategory="200"
+        android:title="Delete File"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_make_directory"
+        android:orderInCategory="300"
+        android:title="Make Directory"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_start_observing"
+        android:orderInCategory="400"
+        android:title="Start Observing"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_stop_observing"
+        android:orderInCategory="500"
+        android:title="Stop Observing"
+        app:showAsAction="never" />
+</menu>
